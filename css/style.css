@@ -1,0 +1,27 @@
+#container {
+    position: absolute;
+    height: 93%;
+    width: 96.5%;
+    overflow: hidden;
+    margin: 15px;
+    border: 1px solid;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+#imageContainer {
+    position: relative;
+    height: 100%;
+}
+
+#imageContainer > img {
+	height	 : inherit;
+	width	 : auto; 
+    top      : 0;
+    left     : 0;
+}
+
+body {
+    background-color: #1a1818;
+}
